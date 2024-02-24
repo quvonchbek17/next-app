@@ -1,0 +1,14 @@
+.moviecard{
+    &_wrapper {
+        // cursor: pointer;/+
+        max-width: 300px;
+    }
+    &_title {
+      color: white;
+      font-weight: bold;
+    }
+    &_link{
+        color: green;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,19 @@
+.intro{
+    background-image: url("../../assets/images/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+    &_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    h2 {
+        color: green;
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
