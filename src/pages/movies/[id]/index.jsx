@@ -32,7 +32,7 @@ const MovieDetails = ({ movie, movies }) => {
             ?.filter((el) => el.id != movie.id)
             .map((el) => {
               return (
-                <Link href={`/movies/${el.id}`}>
+                <Link key={el.id} href={`/movies/${el.id}`}>
                   <div className={style.movies_recomended_video}>
                     <Image
                       src={`${process.env.NEXT_PUBLIC_IMG_URL}${el?.poster_path}`}
